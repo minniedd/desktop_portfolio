@@ -85,6 +85,10 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                   _openGitHub();
                 },child: Image.network("https://i.imgur.com/eiYgLC2.png")),
                 const Text("github"),
+                const SizedBox(
+                  height: 70,
+                ),
+                Text("Icons used are Designed By Freepik.",style: TextStyle(color: Colors.grey.shade500),)
               ],
             ),
           ),
