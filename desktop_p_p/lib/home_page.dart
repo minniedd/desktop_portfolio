@@ -43,7 +43,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                       _showDialog(
                           "My e-mail address", "amina.bardak@edu.fit.ba");
                     },
-                    child: Image.asset("image1.png")),
+                    child: Image.network("https://i.imgur.com/eaFkRQc.png")),
                 const Text("e-mail"),
                 const SizedBox(
                   height: 10,
@@ -53,7 +53,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                       _showDialog("My skills",
                           "Soft skills:\n♡ Communication\n♡ Adaptability\n♡ Team work\n♡ Creativity\n♡ Empathy\n\nDigital Skills:\n♡ HTML,CSS,JS\n♡ C#\n♡ Flutter\n♡ Angular Framework\n♡ .NET Framework\n♡ SQL\n♡ Python\n♡ WebStorm\n♡ Microsoft Office\n♡ Power BI\n♡ Visual Studio");
                     },
-                    child: Image.asset("image2.png")),
+                    child: Image.network("https://i.imgur.com/YXGOUY0.png")),
                 const Text("skills"),
                 const SizedBox(
                   height: 10,
@@ -62,28 +62,28 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                     onTap: () {
                       _downloadPdf();
                     },
-                    child: Image.asset("image3.png")),
+                    child: Image.network("https://i.imgur.com/Wp8L18n.png")),
                 const Text("resume"),
                 const SizedBox(
                   height: 10,
                 ),
                 GestureDetector(onTap: (){
                   _showDialog("My education", "♡ High School: STŠ 'Hasib Hadžović' Goražde\n♡ Bachelor Degree: Faculty Of Information Technology Mostar");
-                },child: Image.asset("image4.png")),
+                },child: Image.network("https://i.imgur.com/yBVOMex.png")),
                 const Text("education"),
                 const SizedBox(
                   height: 10,
                 ),
                 GestureDetector(onTap: (){
                   _showDialog("My projects so far:", "♡ Garbage Monitoring IOT Project (more on my GitHub profile)\n♡ AI Machine Learning Diabetes Agent Predictor (more on my GitHub profile)\n♡ Animal Adoption App(work in progress; details on GitHub)");
-                },child: Image.asset("image5.png")),
+                },child: Image.network("https://i.imgur.com/1jgBLMW.png")),
                 const Text("projects"),
                 const SizedBox(
                   height: 10,
                 ),
                 GestureDetector(onTap: (){
                   _openGitHub();
-                },child: Image.asset("image6.png")),
+                },child: Image.network("https://i.imgur.com/eiYgLC2.png")),
                 const Text("github"),
               ],
             ),
