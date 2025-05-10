@@ -69,8 +69,18 @@ class _SkillsPageScreenState extends State<SkillsPageScreen> {
           shadowColor: Colors.transparent,
           title: const Padding(
             padding: EdgeInsets.only(left: 16),
-            child: Text("♡ My Skills", style: TextStyle(color: Colors.white)),
+            child: Text("♡ mina's skills",
+                style: TextStyle(color: Colors.white)),
           ),
+          actions: const [
+            Padding(
+              padding: EdgeInsets.only(right: 16),
+              child: Center(
+                child: Text("06:13 am  ♡  7 °C",
+                    style: TextStyle(fontSize: 18, color: Colors.white)),
+              ),
+            ),
+          ],
         ),
         body: SingleChildScrollView(
           padding: const EdgeInsets.all(16.0),
