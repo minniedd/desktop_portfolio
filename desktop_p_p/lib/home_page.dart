@@ -63,13 +63,13 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                   GestureDetector(
                       onTap: () {
                         _showDialog(
-                          "My e-mail address (click to send!!)",
+                          "Hi!! My name is Amina Bardak. I am a student, currently studying software engineering.\nI live in Bosnia and Herzegovina.\nMy e-mail address (click to send!!)",
                           'amina.bardak@edu.fit.ba',
                           url: "mailto:amina.bardak@edu.fit.ba}",
                         );
                       },
                       child: Image.network("https://i.imgur.com/eaFkRQc.png")),
-                  const Text("e-mail"),
+                  const Text("About me\n(Contact)"),
                   const SizedBox(
                     height: 10,
                   ),

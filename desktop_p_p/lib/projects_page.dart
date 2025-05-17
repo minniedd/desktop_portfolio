@@ -31,6 +31,22 @@ class ProjectsPageScreen extends StatelessWidget {
             'This project leverages the power of the Internet of Things to create a smart waste management system. At its core, a NodeMCU ESP8266 microcontroller, programmed using C++ within the Arduino IDE, forms the intelligent hub. It interfaces with an HC-SR04 ultrasonic sensor to continuously monitor the fill level of a waste bin. This distance data is then transmitted wirelessly to a Firebase database, providing real-time information on waste levels. To provide a local visual indication, an I2C LCD is integrated to display the current fill status directly on the bin. Furthermore, a web interface built with HTML, CSS, and JavaScript allows users to remotely monitor the fill levels of multiple bins through the Firebase database. This comprehensive system enables efficient waste collection scheduling, potentially reducing costs and improving urban cleanliness.',
         'githubUrl': 'https://github.com/minniedd/iot_trash_bin',
       },
+      {
+        'imageUrl':
+            'https://plus.unsplash.com/premium_photo-1677545183884-421157b2da02?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        'title': 'BringMeHome - Animal Adoption App',
+        'description':
+            'A comprehensive animal adoption platform built with .NET and Flutter, featuring a desktop admin interface and mobile client application. The system enables shelter staff to manage animal profiles, track adoption status, and process applications through an intuitive desktop interface, while potential adopters can browse available pets, submit applications, and receive updates through a user-friendly mobile experience. This dual-platform approach streamlines the entire adoption process, connecting animals in need with loving homes more efficiently.',
+        'githubUrl': 'https://github.com/minniedd/bring_me_home',
+      },
+      {
+        'imageUrl':
+            'https://plus.unsplash.com/premium_photo-1681487683141-e72c5ccd94e6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        'title': 'Chat App',
+        'description':
+            'A lightweight messaging application built with Flutter and Firebase, delivering real-time communication across multiple platforms. The app features instant message delivery, user authentication, and conversation history through Firebases robust backend infrastructure. With a focus on simplicity and speed, it provides a seamless chat experience for users. The integration of Firebase ensures reliable data storage and synchronization, making it an ideal solution for quick and efficient messaging.',
+        'githubUrl': 'https://github.com/minniedd/chat_app',
+      },
       // more projects can be added here
     ];
 
